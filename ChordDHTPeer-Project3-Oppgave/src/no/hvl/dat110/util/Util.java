@@ -47,7 +47,7 @@ public class Util {
 		}
 		return lower.compareTo(id) <= 0 && id.compareTo(upper) <= 0;
 	}
-	
+
 	public static List<String> toString(List<NodeInterface> list) throws RemoteException {
 		List<String> nodestr = new ArrayList<String>();
 		list.forEach(node -> 
